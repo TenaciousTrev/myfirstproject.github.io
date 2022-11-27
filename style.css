@@ -1,8 +1,22 @@
-.navigationBar {
-  height: 50px;
-  width: 100%;
-  background-color: light blue;
-  border: 2px solid black;
-  padding: 10px;
-  color: black;
+.navigationBarWrapper {
+	border: 2px solid black;
 }
+
+.navigationBarList {
+ 	list-style-type: none;
+}
+
+.FrontEndMentorProjectsTable {
+	border: 2px solid black;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.FrontEndMentorProjectsTableRowTitle {
+	border: 2px solid black;
+	margin-top: 10px;
+	text-align: center;
+	width: auto;
+	column-span: all;
+}
+
